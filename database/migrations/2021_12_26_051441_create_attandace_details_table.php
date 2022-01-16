@@ -13,7 +13,7 @@ class CreateAttandaceDetailsTable extends Migration
      */
     public function up()
     {
-        Schema::create('attandace_details', function (Blueprint $table) {
+        Schema::create('attendance_details', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('attendance_id');
             $table->string('long');
